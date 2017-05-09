@@ -1,8 +1,9 @@
 
 """
-Created on Sun Sep 20 11:58:16 2015
+Difference Test Simulations
 
-@author: eugene
+Eugene Belilovsky 
+eugene.belilovsky@inria.fr
 """
 
 import scipy.stats
@@ -33,7 +34,7 @@ n1=800
 s1=15
 s=2.
 #n2s=np.array([30,35,40,45,50,55,60,65,70,75,80,90,100,110,120])
-n2s=np.array([35,60,120])
+n2s=np.array([40,60,120])
 
 edge_changes=75 
 density=0.4
@@ -235,8 +236,8 @@ Power_F= np.mean(1.-FN_F,axis=0)
 print(Power_L)
 print(Power_F)
 
-ind = np.arange(0,len(n2s))
-width = 0.32 
-fig,ax=plt.subplots()
-fig.set_size_inches(7, 4)
+#ind = np.arange(0,len(n2s))
+#width = 0.32 
+#fig,ax=plt.subplots()
+#fig.set_size_inches(7, 4)
 
